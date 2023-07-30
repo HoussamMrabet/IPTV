@@ -1,0 +1,36 @@
+.channels{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
+.channels img{
+    width: 100px;
+    height: auto;
+}
+
+@media screen and (max-width: 650px) {
+    .channels{
+        padding: 0;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 5px;
+    }
+
+    .channels img{
+        width: 60px;
+        height: auto;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    .channels img{
+        width: 150px;
+        height: auto;
+    }    
+}

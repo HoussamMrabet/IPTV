@@ -1,0 +1,9 @@
+export {default as bein} from "./beinsport.png";
+export {default as canal} from "./canal+.png";
+export {default as hbo} from "./hbo.png";
+export {default as hulu} from "./hulu.png";
+export {default as ssc} from "./ssc.png";
+export {default as disney} from "./disney+.png";
+export {default as prime} from "./primevideo.png";
+export {default as netflix} from "./netflix.png";
+export {default as espn} from "./espn.png";

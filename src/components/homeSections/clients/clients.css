@@ -1,0 +1,16 @@
+.clients{
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+
+.clients .clients-reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.clients .clients-reviews img{
+    border-radius: 15px;
+}

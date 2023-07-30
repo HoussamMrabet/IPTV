@@ -1,0 +1,9 @@
+export { default as NavBar } from "./navBar/NavBar";
+export { default as Hero } from "./homeSections/hero/Hero";
+export { default as About } from "./homeSections/about/About";
+export { default as Channels } from "./homeSections/channels/Channels";
+export { default as Services } from "./homeSections/services/Services";
+export { default as Pricing } from "./homeSections/pricing/Pricing";
+export { default as Clients } from "./homeSections/clients/Clients";
+export { default as Frequence } from "./homeSections/frequence/Frequence";
+export { default as Footer } from "./footer/Footer";
