@@ -1,5 +1,4 @@
 .clients{
-    text-align: center;
     padding: 1rem;
     padding-bottom: 3rem;
 }
@@ -13,4 +12,14 @@
 
 .clients .clients-reviews img{
     border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .clients .clients-reviews{
+        flex-direction: column;
+    }
+
+    .clients .clients-reviews img{
+        width: 300px;
+    }
 }

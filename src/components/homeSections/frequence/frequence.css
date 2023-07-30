@@ -1,6 +1,61 @@
 .frequence{
     background-color: white;
-    text-align: center;
     padding: 1rem;
     padding-bottom: 3rem;
+}
+
+.frequence .frequence_qa ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.qa_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.question{
+    width: 70vw;
+    background-color: #5F318C;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question span{
+    padding: 0 5px;
+}
+
+.answer{
+    width: 65vw;
+    height: 0;
+    padding: 0 1rem;
+    visibility: hidden;
+    transition: height 1s ease, visibility 1s ease, margin 1s ease;
+    overflow: hidden;
+    color: black;
+    font-size: 12px;
+}
+
+.answer-active{
+    margin: 1rem 0;
+    height: 80px;
+    visibility: visible;
+    transition: height 1s ease, visibility 1s ease, margin 1s ease;
+    overflow: hidden;
 }

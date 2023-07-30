@@ -31,7 +31,6 @@
 }
 
 .hero .container .overlay h1 span{
-    font-size: 48px;
     color: #9D38FF;
     border-top: 3px solid #9D38FF;
     border-bottom: 3px solid #9D38FF;
@@ -52,5 +51,15 @@
 
     .hero .container{
         transform: scaleX(0.5);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .hero .container .overlay h1{
+        font-size: 36px;
+    }
+
+    .hero .container .overlay p{
+        font-size: 10px;
     }
 }
