@@ -4,7 +4,7 @@ import "./home.css";
 const Home = () => {
   return (
     <>
-      <NavBar />
+      <NavBar isHome={true} />
       <Hero />
       <About />
       <Channels />
@@ -12,7 +12,7 @@ const Home = () => {
       <Pricing />
       <Clients />
       <Frequence />
-      <Footer />
+      <Footer isHome={true} />
     </>
   )
 }

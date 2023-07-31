@@ -1,8 +1,10 @@
-import { Home } from "./pages"
+import { Home, Store } from "./pages"
 
 const App = () => {
   return (
-    <Home />
+    <>
+      <Store />
+    </>
   )
 }
 

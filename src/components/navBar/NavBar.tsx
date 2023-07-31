@@ -3,14 +3,19 @@ import reactSvg from "../../assets/react.svg";
 
 import "./NavBar.css";
 
-const NavBar = () => {
+interface Props{
+  isHome: boolean;
+}
+
+const NavBar = ({isHome}: Props) => {
   
   const [nav, setNav] = useState(false)
   const [toggle, setToggle] = useState(false);
    
   useEffect(()=>{
+    setNav(!isHome);
     addEventListener('scroll', ()=>{
-      setNav(scrollY>20)
+      setNav(scrollY>20 || !isHome)
     });
   },[])
 
