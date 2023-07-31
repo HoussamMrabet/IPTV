@@ -51,6 +51,11 @@
     gap: 3rem;
 }
 
+.footer .footer_middle .footer_middle_list ul li:hover{
+    color: #5F318C;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 750px) {
     .footer{
         flex-direction: column;
