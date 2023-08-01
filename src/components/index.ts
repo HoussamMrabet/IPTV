@@ -6,6 +6,6 @@ export { default as Services } from "./home/services/Services";
 export { default as Pricing } from "./home/pricing/Pricing";
 export { default as Clients } from "./home/clients/Clients";
 export { default as Frequence } from "./home/frequence/Frequence";
-export { default as ProductsList } from "./store/ProductsList";
-export { default as FilterList } from "./store/FilterList";
+export { default as ProductsList } from "./store/productList/Products";
+export { default as FilterList } from "./store/filterList/FilterList";
 export { default as Footer } from "./footer/Footer";

@@ -1,0 +1,88 @@
+.productList{
+    flex: 10.7;
+    padding: 6rem 2rem;
+}
+
+.productList h1{
+    margin-bottom: 3rem;
+}
+
+.productList .categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.productList .categories .category_card{
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    margin: 1rem 0  ;
+    background-color: #5e318ccd;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 1px #5F318C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productList .categories .category_card:hover{
+    box-shadow: 0 0 10px #5F318C;
+}
+
+.productList .categories .category_card img{
+    width: 80%;
+}
+
+.productList .products{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product_card{
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.product_card .product_card_header{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.product_card .product_card_header img{
+    width: 70%;
+}
+
+.product_card_body{
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.product_card_body h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.product_card_body button{
+    width: 100%;
+}
